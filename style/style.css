@@ -347,3 +347,33 @@
     cursor: pointer;
     color: var(--gray-text);
 }
+@media (max-width: 1024px) {
+    .container {
+        padding: 2em;
+    }
+    .product {
+        width: calc((100% - 2em) / 2);
+    }
+    .popup-data {
+        flex-direction: column;
+    }
+    .popup-data-image {
+        width: 100%;
+        height: 30vh;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 1em;
+    }
+    .product {
+        width: 100%;
+    }
+    .popup-data {
+        flex-direction: column;
+    }
+    .popup-data-image {
+        width: 100%;
+        height: 30vh;
+    }
+}
